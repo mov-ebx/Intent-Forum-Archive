@@ -12,4 +12,4 @@ The site hosted free & paid cheats for the video game Minecraft, and acted as a 
 
 As of now, their website is dead. Their domain has expired and there seems to be no future for Intent.store.
 
-Because of this, I've archived the entirety of the forums to preserve the it's history as ervices such as the Wayback Machine fail to capture each individual (if any) forum posts!
+Because of this, I've archived the entirety of the forums to preserve the it's history as services such as the Wayback Machine fail to capture each individual (if any) forum posts!

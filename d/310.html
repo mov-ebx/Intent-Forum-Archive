@@ -2,12 +2,12 @@
 <html dir="ltr" lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
 <title>Intent Launcher Crashing - Intent Forum</title>
-<link rel="stylesheet" href="/assets/fontawesome.css">
+<link rel="stylesheet" href="../assets/fontawesome.css">
 <link rel="canonical" >
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1">
 <meta name="description" content="Solve problems, suggest features, and participate in the Intent community.">
 <meta name="theme-color" content="#00b143">
-<link rel="icon" type="image/x-icon" href="/assets/favicon.ico">
+<link rel="icon" type="image/x-icon" href="../assets/favicon.ico">
 
 </head>
 <body class="no-touch">
@@ -17,8 +17,8 @@
         <header id="header" class="App-header">
         <div style="margin: 0 auto; width: min-content;">
         <h1 class="Header-title">
-        <a href="/" id="home-link">
-        <img src="/assets/logo.png" alt="Intent Forum" class="Header-logo">
+        <a href="../" id="home-link">
+        <img src="../assets/logo.png" alt="Intent Forum" class="Header-logo">
         </a>
         </h1>
         <div id="header-primary" class="Header-primary"><ul class="Header-controls"></ul></div>
@@ -97,7 +97,7 @@ RSI=0x000000002beaee00 is an unknown value<br>
 RDI=0x00000000000002c6 is an unknown value<br>
 R8 =0x00000000000002c6 is an unknown value<br>
 R9 =0x0000000000000000 is an unknown value<br>
-R10={method} {0x000000002060f940} 'parseInt' '(Ljava/lang/String<img class="emoji" draggable="false" alt="😉" src="/assets/post/310/1f609.png">I' in 'java/lang/Integer'<br>
+R10={method} {0x000000002060f940} 'parseInt' '(Ljava/lang/String<img class="emoji" draggable="false" alt="😉" src="../assets/post/310/1f609.png">I' in 'java/lang/Integer'<br>
 R11=0x0000000092ff96c9 is an unknown value<br>
 R12=0x000000006fcdd590 is an unknown value<br>
 R13=0x00000000346ed000 is a thread<br>
@@ -298,14 +298,14 @@ Heap after GC invocations=5 (full 1):<br>
 }</p>
 
 <p>Deoptimization events (10 events):<br>
-Event: 10.279 Thread 0x0000000034668800 Uncommon trap: reason=unstable_if action=reinterpret pc=0x0000000002fbd9f8 method=sun.nio.cs.SingleByte$Encoder.encodeArrayLoop(Ljava/nio/CharBuffer;Ljava/nio/ByteBuffer<img class="emoji" draggable="false" alt="😉" src="/assets/post/310/1f609.png">Ljava/nio/charset/CoderResult; @ 113<br>
+Event: 10.279 Thread 0x0000000034668800 Uncommon trap: reason=unstable_if action=reinterpret pc=0x0000000002fbd9f8 method=sun.nio.cs.SingleByte$Encoder.encodeArrayLoop(Ljava/nio/CharBuffer;Ljava/nio/ByteBuffer<img class="emoji" draggable="false" alt="😉" src="../assets/post/310/1f609.png">Ljava/nio/charset/CoderResult; @ 113<br>
 Event: 17.777 Thread 0x00000000346ed000 Uncommon trap: reason=unstable_if action=reinterpret pc=0x000000000317ffc4 method=java.util.Arrays.equals([B[B)Z @ 41<br>
 Event: 17.777 Thread 0x0000000020f1c800 Uncommon trap: reason=unstable_if action=reinterpret pc=0x000000000317ffc4 method=java.util.Arrays.equals([B[B)Z @ 41<br>
 Event: 17.777 Thread 0x0000000020f1c800 Uncommon trap: reason=unstable_if action=reinterpret pc=0x00000000030367d8 method=java.lang.String.indexOf([CII[CIII)I @ 27<br>
-Event: 17.777 Thread 0x00000000346ed000 Uncommon trap: reason=predicate action=maybe_recompile pc=0x00000000030682a4 method=java.util.regex.Pattern$SliceI.match(Ljava/util/regex/Matcher;ILjava/lang/CharSequence<img class="emoji" draggable="false" alt="😉" src="/assets/post/310/1f609.png">Z @ 21<br>
-Event: 17.777 Thread 0x0000000020f1c800 Uncommon trap: reason=predicate action=maybe_recompile pc=0x00000000030682a4 method=java.util.regex.Pattern$SliceI.match(Ljava/util/regex/Matcher;ILjava/lang/CharSequence<img class="emoji" draggable="false" alt="😉" src="/assets/post/310/1f609.png">Z @ 21<br>
+Event: 17.777 Thread 0x00000000346ed000 Uncommon trap: reason=predicate action=maybe_recompile pc=0x00000000030682a4 method=java.util.regex.Pattern$SliceI.match(Ljava/util/regex/Matcher;ILjava/lang/CharSequence<img class="emoji" draggable="false" alt="😉" src="../assets/post/310/1f609.png">Z @ 21<br>
+Event: 17.777 Thread 0x0000000020f1c800 Uncommon trap: reason=predicate action=maybe_recompile pc=0x00000000030682a4 method=java.util.regex.Pattern$SliceI.match(Ljava/util/regex/Matcher;ILjava/lang/CharSequence<img class="emoji" draggable="false" alt="😉" src="../assets/post/310/1f609.png">Z @ 21<br>
 Event: 17.793 Thread 0x000000002c06d800 Uncommon trap: reason=unstable_if action=reinterpret pc=0x0000000003540a4c method=java.util.concurrent.ConcurrentHashMap.putVal(Ljava/lang/Object;Ljava/lang/Object;Z)Ljava/lang/Object; @ 98<br>
-Event: 17.992 Thread 0x0000000002df0800 Uncommon trap: reason=unstable_if action=reinterpret pc=0x00000000034a53c8 method=sun.misc.Cleaner.remove(Lsun/misc/Cleaner<img class="emoji" draggable="false" alt="😉" src="/assets/post/310/1f609.png">Z @ 14<br>
+Event: 17.992 Thread 0x0000000002df0800 Uncommon trap: reason=unstable_if action=reinterpret pc=0x00000000034a53c8 method=sun.misc.Cleaner.remove(Lsun/misc/Cleaner<img class="emoji" draggable="false" alt="😉" src="../assets/post/310/1f609.png">Z @ 14<br>
 Event: 18.052 Thread 0x0000000020f1c800 Uncommon trap: reason=range_check action=make_not_entrant pc=0x00000000032a5428 method=sun.reflect.generics.parser.SignatureParser.current()C @ 34<br>
 Event: 18.322 Thread 0x000000002bfa4800 Uncommon trap: reason=unstable_if action=reinterpret pc=0x0000000003a165c8 method=java.lang.Long.parseLong(Ljava/lang/String;I)J @ 1</p>
 
